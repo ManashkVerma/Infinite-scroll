@@ -5,9 +5,9 @@ let ready = false;
 let imagesLoaded = 0;
 let totalImages = 0;
 let photosArray = [];
-
+ 
 const count = 30;
-const apiKey = "qOuTxd1oLqNaRh9-YQOdf6_U3HKNPxqmXp7JiAkOCE4";
+const apiKey = "YOUR-API-KEY";
 const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 
 function imageLoaded() {
